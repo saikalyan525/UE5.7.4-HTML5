@@ -1,0 +1,29 @@
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Never publish Unreal, SDK, build, or packaged output from this documentation repository
+Engine/
+Build/
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+emsdk/
+*.wasm
+*.wasm.gz
+*.data
+*.data.gz
+*.pak
+*.ucas
+*.utoc
+
+# Credentials and local environment files
+.env
+.env.*
+*.pem
+*.key
+hosts.yml
+credentials*
